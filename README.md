@@ -2,4 +2,4 @@ DialogFragment
 ==============
 
 androidのカスタムダイアログをアニメーションさせています。
-![キャプチャ](https://github.com/naotaro0123/DialogFragment/readmeCap.gif)
+![キャプチャ](http://oneone.lolipop.jp/github/readmeCap.gif)
