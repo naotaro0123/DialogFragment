@@ -56,6 +56,8 @@ public class MainActivity extends FragmentActivity implements OnClickListener{
         @Override
         public Dialog onCreateDialog(Bundle savedInstanceState) {
             Dialog dialog = new Dialog(getActivity());
+            // ダイアログのアニメーション
+            dialog.getWindow().getAttributes().windowAnimations = R.style.Animation_CustomDialog;
             // タイトル非表示
             dialog.getWindow().requestFeature(Window.FEATURE_NO_TITLE);
             // フルスクリーン
