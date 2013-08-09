@@ -61,8 +61,6 @@ public final class R {
     }
     public static final class style {
         /**  ダイアログのアニメーション 
-         <item name="android:windowEnterAnimation">@anim/dialog_enter</item>
-        <item name="android:windowExitAnimation">@anim/dialog_exit</item> 
          */
         public static final int Animation_CustomDialog=0x7f070002;
         /** 

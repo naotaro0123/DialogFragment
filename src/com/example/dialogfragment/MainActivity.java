@@ -65,6 +65,8 @@ public class MainActivity extends FragmentActivity implements OnClickListener{
             dialog.setContentView(R.layout.dialog_custom);
             // 背景を透明にする
             dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+            // ダイアログの外側クリックしてもdismissさせない
+            dialog.setCanceledOnTouchOutside(false);
             // メッセージを渡す
             TextView message = (TextView) dialog.findViewById(R.id.message);
             message.setText(text.getText());
